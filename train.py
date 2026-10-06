@@ -1,3 +1,4 @@
+
 import pandas as pd
 import pickle
 
@@ -74,4 +75,5 @@ with open("model.pkl", "wb") as file:
     pickle.dump(model, file)
 
 print("Model saved as model.pkl")
+
 
